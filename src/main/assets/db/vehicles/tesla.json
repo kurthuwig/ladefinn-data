@@ -1,0 +1,87 @@
+//https://support.fastned.nl/hc/en-gb/articles/360012178313-Charging-with-a-Tesla-Model-3
+[
+  {
+    "make": "Tesla",
+    "model": "Model 3 LR AWD",
+    "kWh": "75",
+    "logo": "tesla_motors",
+    "charging": [
+      {
+        "connectors": [
+          "DC_PLUG_COMBO"
+        ],
+        "curve": [
+          [  0,  90],
+          [  5, 125],
+          [  9, 180],
+          [ 22, 250],
+          [ 30, 200],
+          [ 37, 180],
+          [ 40, 170],
+          [ 45, 150],
+          [ 50, 130],
+          [ 55,  88],
+          [ 60,  82],
+          [ 70,  67],
+          [ 80,  40],
+          [ 90,  25],
+          [100,   2]
+        ]
+      },
+      {
+        "connectors": [
+          "AC_PLUG_TYPE_2",
+          "AC_SOCKET_TYPE_2",
+          "AC_SOCKET_TYPE_1"
+        ],
+        "curve": [
+          [  0, 11],
+          [ 98, 11],
+          [100,  2]
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Tesla",
+    "model": "Model 3 Performance",
+    "kWh": "75",
+    "logo": "tesla_motors",
+    "charging": [
+      {
+        "connectors": [
+          "DC_PLUG_COMBO"
+        ],
+        "curve": [
+          [  0,  90],
+          [  5, 125],
+          [  9, 180],
+          [ 22, 250],
+          [ 30, 200],
+          [ 37, 180],
+          [ 40, 170],
+          [ 45, 150],
+          [ 50, 130],
+          [ 55,  88],
+          [ 60,  82],
+          [ 70,  67],
+          [ 80,  40],
+          [ 90,  25],
+          [100,   2]
+        ]
+      },
+      {
+        "connectors": [
+          "AC_PLUG_TYPE_2",
+          "AC_SOCKET_TYPE_2",
+          "AC_SOCKET_TYPE_1"
+        ],
+        "curve": [
+          [  0, 11],
+          [ 98, 11],
+          [100,  2]
+        ]
+      }
+    ]
+  }
+]
