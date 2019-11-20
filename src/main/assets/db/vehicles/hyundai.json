@@ -23,6 +23,17 @@
           [ 94, 18],
           [100,  2]
         ]
+      },
+      {
+        "connectors": [
+          "AC_PLUG_TYPE_2",
+          "AC_SOCKET_TYPE_2",
+          "AC_SOCKET_TYPE_1"
+        ],
+        "curve": [
+          [  0, 6.6],
+          [100, 6.6]
+        ]
       }
     ]
   }
