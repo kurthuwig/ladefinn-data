@@ -1,7 +1,7 @@
 [
   {
     "make": "Hyundai",
-    "model": "IONIQ",
+    "model": "IONIQ Electro Classic",
     "kWh": "28",
     "logo": "hyundai",
     "charging": [
@@ -22,6 +22,40 @@
           [ 93, 22],
           [ 94, 18],
           [100,  2]
+        ]
+      },
+      {
+        "connectors": [
+          "AC_PLUG_TYPE_2",
+          "AC_SOCKET_TYPE_2",
+          "AC_SOCKET_TYPE_1"
+        ],
+        "curve": [
+          [  0, 6.6],
+          [100, 6.6]
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "IONIQ Electro Facelift",
+    "kWh": "38.3",
+    "logo": "hyundai",
+    "charging": [
+      {
+        "connectors": [
+          "DC_PLUG_COMBO"
+        ],
+        "curve": [
+          [  0, 48],
+          [ 42, 43],
+          [ 52, 36],
+          [ 69, 23],
+          [ 74, 15],
+          [ 91, 10],
+          [ 96, 6],
+          [ 100, 4]
         ]
       },
       {
