@@ -1,7 +1,7 @@
 [
   {
     "make": "Hyundai",
-    "model": "IONIQ",
+    "model": "IONIQ Electric Classic",
     "kWh": "28",
     "logo": "hyundai",
     "charging": [
@@ -33,6 +33,170 @@
         "curve": [
           [  0, 6.6],
           [100, 6.6]
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "IONIQ Electric Facelift",
+    "kWh": "38.3",
+    "logo": "hyundai",
+    "charging": [
+      {
+        "connectors": [
+          "DC_PLUG_COMBO"
+        ],
+        "curve": [
+          [  0, 48],
+          [ 42, 43],
+          [ 52, 36],
+          [ 69, 23],
+          [ 74, 15],
+          [ 91, 10],
+          [ 96, 6],
+          [ 100, 4]
+        ]
+      },
+      {
+        "connectors": [
+          "AC_PLUG_TYPE_2",
+          "AC_SOCKET_TYPE_2",
+          "AC_SOCKET_TYPE_1"
+        ],
+        "curve": [
+          [  0, 6.6],
+          [100, 6.6]
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Kona Electric 64kWh",
+    "kWh": "64",
+    "logo": "hyundai",
+    "charging": [
+      {
+        "connectors": [
+          "DC_PLUG_COMBO"
+        ],
+        "curve": [
+          [  0, 75],
+          [ 40, 70],
+          [ 55, 48],
+          [ 73, 37],
+          [ 78, 25],
+          [ 100, 4]
+        ]
+      },
+      {
+        "connectors": [
+          "AC_PLUG_TYPE_2",
+          "AC_SOCKET_TYPE_2",
+          "AC_SOCKET_TYPE_1"
+        ],
+        "curve": [
+          [  0, 7.2],
+          [100, 7.2]
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Kona Electric 64kWh - 11kW AC",
+    "kWh": "64",
+    "logo": "hyundai",
+    "charging": [
+      {
+        "connectors": [
+          "DC_PLUG_COMBO"
+        ],
+        "curve": [
+          [  0, 75],
+          [ 40, 70],
+          [ 55, 48],
+          [ 73, 37],
+          [ 78, 25],
+          [ 100, 4]
+        ]
+      },
+      {
+        "connectors": [
+          "AC_PLUG_TYPE_2",
+          "AC_SOCKET_TYPE_2",
+          "AC_SOCKET_TYPE_1"
+        ],
+        "curve": [
+          [  0, 11],
+          [100, 11]
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Kona Electric 39kWh",
+    "kWh": "39.2",
+    "logo": "hyundai",
+    "charging": [
+      {
+        "connectors": [
+          "DC_PLUG_COMBO"
+        ],
+        "curve": [
+          [  0, 43],
+          [ 35, 40],
+          [ 50, 33],
+          [ 65, 25],
+          [ 85, 17],
+          [ 95, 8],
+          [ 100, 1]
+        ]
+      },
+      {
+        "connectors": [
+          "AC_PLUG_TYPE_2",
+          "AC_SOCKET_TYPE_2",
+          "AC_SOCKET_TYPE_1"
+        ],
+        "curve": [
+          [  0, 7.2],
+          [100, 7.2]
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "model": "Kona Electric 39kWh - 11kW AC",
+    "kWh": "39.2",
+    "logo": "hyundai",
+    "charging": [
+      {
+        "connectors": [
+          "DC_PLUG_COMBO"
+        ],
+        "curve": [
+          [  0, 43],
+          [ 35, 40],
+          [ 50, 33],
+          [ 65, 25],
+          [ 85, 17],
+          [ 95, 8],
+          [ 100, 1]
+        ]
+      },
+      {
+        "connectors": [
+          "AC_PLUG_TYPE_2",
+          "AC_SOCKET_TYPE_2",
+          "AC_SOCKET_TYPE_1"
+        ],
+        "curve": [
+          [  0, 11],
+          [100, 11]
         ]
       }
     ]
